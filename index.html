@@ -21,9 +21,9 @@
         </style>
 
     </head>
-    <body class="body">
-        <header class="max-w-6xl mx-auto">
-            <section class="hero sm:flex sm:items-center ">
+    <body class="body ">
+        <header class="w-11/12 mx-auto sm:max-w-6xl ">
+            <section class="hero md:flex md:items-center ">
                 <div class="hero-content">
                     <h1 class="text-7xl font-extrabold text-[#1C1C1C]">It's good
                         <br>
@@ -56,7 +56,7 @@
             </section>
 
         </header>
-        <main class="mt-40 max-w-6xl mx-auto">
+        <main class="mt-40 w-11/12 mx-auto sm:max-w-6xl">
             <section class="featured-product">
                 <div class="feature-content text-center mb-12 w-3/4 mx-auto">
                     <h1 class="text-[#1C1C1C] text-5xl font-extrabold">Our
@@ -68,7 +68,7 @@
                         even slightly believable. </p>
                 </div>
                 <div
-                    class="featured-card-container grid grid-cols-4 gap-6 rounded-lg">
+                    class="featured-card-container grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 rounded-lg">
                     <div class="featured-card bg-gradient-to-b from-[#F4F4F4] 
                      to-[rgba(244,244,244,0)] text-center p-8 ">
                         <img class="w-fit mx-auto mb-8" src="images/tea-1.png"
@@ -125,7 +125,7 @@
             </section>
 
             <section
-                class="great-tea grid grid-cols-2 gap-14 items-center mt-[130px] mb-44 ">
+                class="great-tea grid md:grid-cols-2 gap-14 items-center mt-[130px] mb-44 ">
                 <div
                     class="great-image-container grid grid-cols-2 grid-rows-3 gap-7">
                     <div class="bg-gradient-to-r from-[rgba(230,165,35,0.48)] 
@@ -178,9 +178,9 @@
             </section>
 
             <section
-                class="meet-our-super rounded-xl bg-gradient-to-l from-[#FF0000] to-[#FF8938] bg-[url('images/bg_cup.png')]   bg-no-repeat bg-center  mb-32 grid grid-cols-2 gap-12 items-center px-20 ">
+                class="meet-our-super rounded-xl bg-gradient-to-l from-[#FF0000] to-[#FF8938] bg-[url('images/bg_cup.png')]   bg-no-repeat bg-center  mb-32 grid lg:grid-cols-2 gap-16 items-center px-4 sm:px-20 py-20 md:py20">
                 <div class="meet-content">
-                    <h1 class="text-[#F4F4F4] text-5xl font-extrabold">Meet Our
+                    <h1 class="text-[#F4F4F4] text-3xl sm:text-5xl font-extrabold">Meet Our
                         Super Clients</h1>
                     <p
                         class="text-lg font-medium text-[#F4F4F4] mt-5 mb-8">There
@@ -195,7 +195,7 @@
                 </div>
                 <div class="meet-image ">
 
-                    <div class="bg-white px-12 py-10 rounded-xl relative left-10 top-28 z-0 opacity-30">
+                    <div class="bg-white px-12 py-10 rounded-xl relative left-10 top-28 z-0 opacity-30 hidden sm:block">
                         <img
                             class="absolute -left-5 -top-5 border-4 border-white rounded-full"
                             src="images/client.png" alt>
@@ -208,7 +208,7 @@
                             class="text-xl font-medium text-[#5D5A6F]">Businessman</p>
                     </div>
 
-                     <div class="bg-white px-12 py-10 rounded-xl  relative right-12 z-10">
+                     <div class="bg-white px-12 py-10 rounded-xl  relative sm:right-12 z-10">
                         <img
                             class="absolute -left-5 -top-5 border-4 border-white rounded-full"
                             src="images/client.png" alt>
@@ -221,7 +221,7 @@
                             class="text-xl font-medium text-[#5D5A6F]">Businessman</p>
                     </div>
 
-                     <div class="bg-white px-12 py-10 rounded-xl relative bottom-28 left-10 z-0 opacity-30">
+                     <div class="bg-white px-12 py-10 rounded-xl relative bottom-28 left-10 z-0 opacity-30 hidden sm:block">
                         <img
                             class="absolute -left-5 -top-5 border-4 border-white rounded-full"
                             src="images/client.png" alt>
@@ -240,11 +240,11 @@
                     <h1 class="text-[#1C1C1C] text-5xl font-extrabold">News & Events</h1>
                     <p class="text-[#777777] text-lg font-medium mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.  </p>
                 </div>
-                <div class="news-card-container grid grid-cols-3 gap-6 ">
+                <div class="news-card-container grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
                     <div class="news-card border-2 rounded-xl py-6">
                         <img class="w-fit mx-auto mb-8" src="images/news-1.png"
                             alt>
-                        <div class="card-content flex flex-col gap-3 px-7">
+                        <div class="card-content flex flex-col gap-3 md:px-7 text-center md:text-start">
                             <p class="text-[#777777] text-xl font-medium">Feb 05, 2027</p>
                             <h1
                                 class="text-[#1C1C1C] text-2xl font-extrabold">Collecting 8 points for discount</h1>
@@ -256,7 +256,7 @@
                     <div class="news-card border-2 rounded-xl py-6">
                         <img class="w-fit mx-auto mb-8" src="images/news-2.png"
                             alt>
-                        <div class="card-content flex flex-col gap-3 px-7">
+                        <div class="card-content flex flex-col gap-3 md:px-7 text-center md:text-start">
                             <p class="text-[#777777] text-xl font-medium">Feb 05, 2027</p>
                             <h1
                                 class="text-[#1C1C1C] text-2xl font-extrabold">Collecting 8 points for discount</h1>
@@ -268,7 +268,7 @@
                     <div class="news-card border-2 rounded-xl py-6">
                         <img class="w-fit mx-auto mb-8" src="images/news-3.png"
                             alt>
-                        <div class="card-content flex flex-col gap-3 px-7">
+                        <div class="card-content flex flex-col gap-3 md:px-7 text-center md:text-start">
                             <p class="text-[#777777] text-xl font-medium">Feb 05, 2027</p>
                             <h1
                                 class="text-[#1C1C1C] text-2xl font-extrabold">Collecting 8 points for discount</h1>
@@ -287,43 +287,43 @@
         </main>
         <footer class="bg-gradient-to-r from-[rgba(230,165,35,0.48)] 
                      to-[rgba(230,165,35,0.12)] py-36">
-            <section class="footer-container max-w-6xl mx-auto">
-                <div class="flex items-center justify-between mb-24">
-                    <img src="images/cup.png " alt="">
-                    <div class="flex items-center gap-10 pr-20">
+            <section class="footer-container w-11/12 mx-auto sm:max-w-6xl">
+                <div class="md:flex items-center justify-between mb-24 text-center">
+                    <img class="w-fit mx-auto sm:mx-0" src="images/cup.png " alt="">
+                    <div class="sm:flex text-center items-center gap-10 sm:pr-20">
                         <p class="text-xl font-medium text-[#494949]">Ready to get strated?</p>
                          <button class="bg-gradient-to-l from-[#FF0000] 
                      to-[#FF8938] text-white
-                     font-bold text-xl  p-[18px] rounded-lg flex items-center gap-3">Get Started </button>
+                     font-bold text-xl  p-[18px] rounded-lg flex items-center gap-3 w-fit mx-auto mt-4 sm:mt-4 sm:mx-0">Get Started </button>
                     </div>
                 </div>
-            <div class="flex justify-between">
-                <div class="grid gap-4">
+            <div class="lg:flex justify-between space-y-4">
+                <div class="grid gap-4 text-center sm:text-start">
                     <p class="text-[#1C1C1C] text-xl font-semibold">Quick Links</p>
                     <p class="text-sm text-[#494949]">Home</p>
                     <p class="text-sm text-[#494949]">About Us</p>
                     <p class="text-sm text-[#494949]">Insurance</p>
                     <p class="text-sm text-[#494949]">Privacy Policy</p>
                 </div>
-                 <div class="grid gap-4">
+                 <div class="grid gap-4 text-center sm:text-start">
                     <p class="text-[#1C1C1C] text-xl font-semibold">Quick Links</p>
                     <p class="text-sm text-[#494949]">Home</p>
                     <p class="text-sm text-[#494949]">About Us</p>
                     <p class="text-sm text-[#494949]">Insurance</p>
                     <p class="text-sm text-[#494949]">Privacy Policy</p>
                 </div>
-                 <div class="grid gap-4">
+                 <div class="grid gap-4 text-center sm:text-start">
                     <p class="text-[#1C1C1C] text-xl font-semibold">Quick Links</p>
                     <p class="text-sm text-[#494949]">Home</p>
                     <p class="text-sm text-[#494949]">About Us</p>
                     <p class="text-sm text-[#494949]">Insurance</p>
                     <p class="text-sm text-[#494949]">Privacy Policy</p>
                 </div>
-                <div>
+                <div class="text-center sm:text-start">
                     <p class="text-[#1C1C1C] text-2xl font-semibold">Subscribe to our newsletter</p>
                     <input class="bg-gradient-to-r from-[rgba(230,165,35,0.48)] 
                      to-[rgba(230,165,35,0.12)] text-white mt-10 mb-12" type="text" placeholder="Email Address">
-                     <div class="flex gap-6">
+                     <div class="flex gap-6 justify-center sm:justify-start sm:text-start">
                         <i  class="fa-brands fa-facebook h-6 w-6"></i>
                         <i class="fa-brands fa-twitter"></i>
                         <i class="fa-brands fa-instagram"></i>
